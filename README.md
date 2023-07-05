@@ -1,5 +1,6 @@
 # python-streamlit-poc
 <h3>Tech : PandasAI, OpenAI and Streamlit - Analyze Uploaded CSV File with User Prompts</h3>
+<hr>
 Requirement : 
 1. pip install PandasAI
 2. pip install OpenAI
