@@ -11,3 +11,7 @@ with st.form("form1"):
     st.text_input("Confirm Password",type='password')
     st.form_submit_button("Submit")
 
+
+st.divider()
+st.text("*******************************developed by Shyamu Sharma*******************************")    
+st.divider()
