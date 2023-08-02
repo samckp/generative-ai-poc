@@ -14,4 +14,3 @@ with st.form("form1"):
 
 st.divider()
 st.text("*******************************developed by Shyamu Sharma*******************************")    
-st.divider()
