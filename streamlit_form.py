@@ -3,14 +3,21 @@ import pandas as pd
 
 st.title("User Registration")
 
-with st.form("form1"):
+with st.form("form1", clear_on_submit=True):
     col1,col2 = st.columns(2)
-    col1.text_input("First_Name")
-    col2.text_input("Last_Name")
-    st.text_input("Email")
-    st.text_input("Password", type='password')
-    st.text_input("Confirm Password",type='password')
-    st.form_submit_button("Submit")
+    f_name = col1.text_input("First_Name")
+    l_name = col2.text_input("Last_Name")
+    email = st.text_input("Email")
+    pwd = st.text_input("Password", type='password')
+    cpwd = st.text_input("Confirm Password",type='password')
+    
+    sub_state = st.form_submit_button("Submit")
+
+    if sub_state:
+        if f_name == "" and l_name == "" and email == "" and pwd =="" and cpwd =="":
+            st.warning("Please fill above fields")
+        else:
+            st.success("Successfully Submitted !!")
 
 
 st.divider()
