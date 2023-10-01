@@ -15,3 +15,5 @@ The prompt will be passed to the PandasAI library, which will take care of sendi
 <hr>
 project folder > streamlit run read_csv_analyse.py <press enter> 
 open a browser with http://localhost:8501/
+
+<hr>
